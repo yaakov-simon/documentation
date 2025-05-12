@@ -19,27 +19,24 @@ This setup guide will show you how to provide an integration between Cato SASE e
 
 ### Enable the EventsFeed API
 
-1. Log in to your Cato Management Application
-2. Click on the `Administration` section then click on `API & Integrations`
+1. Log in to your Cato Management Application account.
+2. Click on the `Resources` section then click on `Event Integrations`
     ![Administration](/assets/integration/cloud_and_saas/cato/administration.png){: style="max-width:100%"}
-3. Select the tab `Events Integration`
-4. Click on `Enable integration with Cato events`
+3. Click on `Enable integration with Cato events`
     ![Administration](/assets/integration/cloud_and_saas/cato/enable_eventsfeed.png){: style="max-width:100%"}
 
 ### Generate the API key
 
 To collect the events from the Cato Networks platform, an API key is required:
 
-1. Click on the `Administration` section then click on `API & Integrations`
+1. Click on the `Resources` section then click on `API Keys`
 2. Click on the button `New` to generate a new API key
 3. On the panel, give a name to the api key, select the `View` permission
     ![Administration](/assets/integration/cloud_and_saas/cato/panel.png){: style="max-width:100%"}
 4. Click on apply and copy the API key
 
-In addition to the API key, Cato `account ID` is also required for the Account configuration in Sekoia
+In addition to the API key, Cato `account ID` is also required for the Account configuration in Sekoia. Click `Account` and then click `Account Info` to show the `Account ID`.
 
-!!! Note
-     In the Cato Management Application, please note the four or five digits in the browser address.
 
 ### Create an intake
 
